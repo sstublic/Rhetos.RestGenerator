@@ -1,5 +1,24 @@
 # RestGenerator release notes
 
+## 6.1.1 (TO BE RELEASED)
+
+* **Breaking changes**: Migrated from .NET 8 to .NET 10 (C# LangVersion 14) and Rhetos 6.1.1.
+  Applications that use RestGenerator need to be updated to .NET 10 and Rhetos 6.1.1.
+* New generic filter operations are available in the REST API with Rhetos 6.1:
+  `StartsWithAny`, `EndsWithAny` and `ContainsAny` (the filter parameter is a string array).
+  See "Reading data" chapter in [Readme.md](Readme.md#reading-data).
+* Updated Swagger setup instructions in [Readme.md](Readme.md#adding-swaggeropenapi)
+  to use relative Swagger endpoint routes.
+
+## 6.0.0 (2025-09-03)
+
+* Migrated from .NET 5 to .NET 8 (C# LangVersion 12) and Rhetos 6.
+* **Breaking changes**: Applications that use RestGenerator need to be updated to .NET 8 and Rhetos 6.
+  Note the Rhetos 6 breaking changes: the legacy configuration option `CommonConcepts:DynamicTypeResolution`
+  is no longer supported, and the SQL Server (Entity Framework 6) database provider is moved
+  to the separate `Rhetos.MsSqlEf6` package.
+* Removed the obsolete `[Serializable]` attribute and the serialization constructor from `LegacyClientException`.
+
 ## 5.1.0 (2023-03-16)
 
 * Update to Rhetos 5.4.0, because of the new UserException localization.

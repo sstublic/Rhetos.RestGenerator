@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,13 +9,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.19" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="10.0.5" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.4" />
-    <PackageReference Include="Rhetos.MsBuild" Version="6.0.0" />
-    <PackageReference Include="Rhetos.Host" Version="6.0.0" />
-    <PackageReference Include="Rhetos.Host.AspNet" Version="6.0.0" />
-    <PackageReference Include="Rhetos.CommonConcepts" Version="6.0.0" />
-    <PackageReference Include="Rhetos.MsSqlEf6" Version="6.0.0" />
+    <PackageReference Include="Rhetos.MsBuild" Version="6.1.1-dev2607181911091980" />
+    <PackageReference Include="Rhetos.Host" Version="6.1.1-dev2607181911091980" />
+    <PackageReference Include="Rhetos.Host.AspNet" Version="6.1.1-dev2607181911091980" />
+    <PackageReference Include="Rhetos.CommonConcepts" Version="6.1.1-dev2607181911091980" />
+    <PackageReference Include="Rhetos.MsSqlEf6" Version="6.1.1-dev2607181911091980" />
   </ItemGroup>
 
 </Project>
