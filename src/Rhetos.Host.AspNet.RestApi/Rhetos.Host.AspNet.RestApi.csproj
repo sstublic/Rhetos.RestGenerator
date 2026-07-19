@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Rhetos.CommonConcepts" Version="6.1.1-dev2607181911091980" />
-    <PackageReference Include="Rhetos.Host.AspNet" Version="6.1.1-dev2607181911091980" />
+    <PackageReference Include="Rhetos.CommonConcepts" Version="6.1.1-dev2607191224b04eb1" />
+    <PackageReference Include="Rhetos.Host.AspNet" Version="6.1.1-dev2607191224b04eb1" />
   </ItemGroup>
 
 </Project>
